@@ -5,7 +5,7 @@ Founder · AI Global Builder · Multilingual Operator
 
 ## Live Portfolio
 
-https://sergio-ai-global-studio-chdisa85100-1085s-projects.vercel.app
+Deployment target · GitHub Pages + Vercel
 
 ## Positioning
 
@@ -58,6 +58,10 @@ A privacy-conscious local guided chatbot for services · focus areas · markets 
 · Public business contact is provided through the portfolio.  
 · Large mission-critical backend systems are not represented as a core capability.  
 · Live demos are available so visitors can evaluate execution directly.
+
+## Deployment
+
+The repository contains an automated GitHub Pages workflow under `.github/workflows/deploy-sergio-pages.yml` that publishes only the `sergio-ai-global-studio` directory.
 
 ## Status
 
