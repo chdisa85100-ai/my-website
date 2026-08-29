@@ -3,9 +3,10 @@
 **SEUNGJIN BAEK (Sergio)**  
 Founder · AI Global Builder · Multilingual Operator
 
-## Live Portfolio
+## Portfolio Status
 
-Deployment target · GitHub Pages + Vercel
+Public source is ready in this repository under `sergio-ai-global-studio/`.
+GitHub Pages deployment workflow is installed and ready to publish as soon as GitHub Pages is enabled once in repository settings.
 
 ## Positioning
 
@@ -61,7 +62,11 @@ A privacy-conscious local guided chatbot for services · focus areas · markets 
 
 ## Deployment
 
-The repository contains an automated GitHub Pages workflow under `.github/workflows/deploy-sergio-pages.yml` that publishes only the `sergio-ai-global-studio` directory.
+The production workflow is located at `.github/workflows/deploy-sergio-pages.yml`.
+It deploys only `sergio-ai-global-studio/` and does not overwrite the repository root website.
+
+Required one-time repository setting: GitHub → `my-website` → Settings → Pages → enable GitHub Pages / GitHub Actions publishing.
+After this one-time account-level permission is enabled, pushes affecting `sergio-ai-global-studio/**` automatically redeploy the portfolio.
 
 ## Status
 
